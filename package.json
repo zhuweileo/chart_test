@@ -1,0 +1,20 @@
+{
+  "name": "charts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config src/webpack.config.js",
+    "dev":"webpack-dev-server --open --config src/webpack.config.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "echarts": "^3.5.4",
+    "webpack": "^2.5.1"
+  },
+  "devDependencies": {
+    "webpack-dev-server": "^2.4.5"
+  }
+}
