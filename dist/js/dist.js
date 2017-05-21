@@ -20280,21 +20280,25 @@ module.exports = g;
             {
                 name: '出租车',
                 type: 'bar',
+                barWidth: 10,
                 data: [320, 332, 301, 334, 390, 330, 320, 390, 330, 320]
             },
             {
                 name: '网约车',
                 type: 'bar',
+                barWidth: 10,
                 data: [320, 332, 301, 334, 390, 330, 320, 390, 330, 320]
             },
             {
                 name: '公交车',
                 type: 'bar',
+                barWidth: 10,
                 data: [320, 332, 301, 334, 390, 330, 320, 390, 330, 320]
             },
             {
                 name: '快轨',
                 type: 'bar',
+                barWidth: 10,
                 data: [320, 332, 301, 334, 390, 330, 320, 390, 330, 320]
             }
 
@@ -20304,20 +20308,22 @@ module.exports = g;
                 type: 'slider',
                 xAxisIndex: 0,
                 start: 10,
-                end: 60
+                end: 60,
+                zoomLock:true
             },
             {
                 type: 'inside',
                 xAxisIndex: 0,
                 start: 10,
-                end: 60
+                end: 60,
+                zoomLock:true
             }
         ]
     };
 
 //样式配置
     var styleOption = {
-        backgroundColor: "rgba(0,0,0,.8)",
+        backgroundColor: "rgba(0,0,0,.5)",
         textStyle: {
             color: "#979797"
         },
@@ -20413,7 +20419,7 @@ module.exports = g;
 
 //样式配置
     var styleOption = {
-        backgroundColor: "rgba(0,0,0,.8)",
+        backgroundColor: "rgba(0,0,0,.5)",
         grid:{
           left:10
         },
