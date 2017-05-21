@@ -51,7 +51,7 @@ export default function () {
 
 //样式配置
     var styleOption = {
-        backgroundColor: "rgba(0,0,0,.8)",
+        backgroundColor: "rgba(0,0,0,.5)",
         grid:{
           left:10
         },
