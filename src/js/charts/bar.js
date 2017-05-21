@@ -49,21 +49,25 @@ export default function () {
             {
                 name: '出租车',
                 type: 'bar',
+                barWidth: 10,
                 data: [320, 332, 301, 334, 390, 330, 320, 390, 330, 320]
             },
             {
                 name: '网约车',
                 type: 'bar',
+                barWidth: 10,
                 data: [320, 332, 301, 334, 390, 330, 320, 390, 330, 320]
             },
             {
                 name: '公交车',
                 type: 'bar',
+                barWidth: 10,
                 data: [320, 332, 301, 334, 390, 330, 320, 390, 330, 320]
             },
             {
                 name: '快轨',
                 type: 'bar',
+                barWidth: 10,
                 data: [320, 332, 301, 334, 390, 330, 320, 390, 330, 320]
             }
 
@@ -73,13 +77,15 @@ export default function () {
                 type: 'slider',
                 xAxisIndex: 0,
                 start: 10,
-                end: 60
+                end: 60,
+                zoomLock:true
             },
             {
                 type: 'inside',
                 xAxisIndex: 0,
                 start: 10,
-                end: 60
+                end: 60,
+                zoomLock:true
             }
         ]
     };
