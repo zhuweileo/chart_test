@@ -37,7 +37,9 @@ export default function () {
             {
                 name: '访问来源',
                 type: 'pie',
-                radius: '55%',
+                // radius: '55%',
+                center:["40%","50%"],
+                radius:[0,"90%"],
                 data: [
                     {value: 235, name: '渝中区'},
                     {value: 274, name: '江北区'},
